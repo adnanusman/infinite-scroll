@@ -40,4 +40,4 @@ gulp.task('watch', function watcher() {
   }
 )
 
-gulp.task('default', gulp.parallel('copy-js', 'copy-css', 'copy-html', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('dotenv', 'copy-js', 'copy-css', 'copy-html', 'browser-sync', 'watch'));
